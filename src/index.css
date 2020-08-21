@@ -4,6 +4,7 @@
 @import "./styles/Footer.css";
 @import "./styles/Main.css";
 @import "./styles/SatSetting.css";
+@import "./styles/SatlliteList.css";
 
 body {
   margin: 0;
@@ -12,6 +13,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  position: relative;
 }
 
 code {
