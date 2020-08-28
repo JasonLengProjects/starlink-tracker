@@ -49,7 +49,7 @@ class SatSetting extends Component {
                     <p className="setting-label">From Location</p>
                     <div className="setting-list two-item-col">
                         <div className="list-item">
-                            <label>Longitude: </label>
+                            <label>Longitude (<span>&#176;</span>): </label>
                             <InputNumber
                                 min={-180}
                                 max={180}
@@ -59,7 +59,7 @@ class SatSetting extends Component {
                             />
                         </div>
                         <div className="list-item right-item">
-                            <label>Latitude: </label>
+                            <label>Latitude (<span>&#176;</span>): </label>
                             <InputNumber
                                 placeholder="latitude"
                                 min={-90}
@@ -86,7 +86,7 @@ class SatSetting extends Component {
                     <p className="setting-label">Restrictions</p>
                     <div className="setting-list">
                         <div className="list-item">
-                            <label>Search Radius </label>
+                            <label>Search Radius (<span>&#176;</span>): </label>
                             <InputNumber
                                 min={0}
                                 max={90}
